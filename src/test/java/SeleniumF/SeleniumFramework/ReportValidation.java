@@ -41,6 +41,7 @@ public class ReportValidation {
 		 driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		 driver.getTitle();
 		 extent.flush();
+		 System.out.println("hello");
 	}*/
 	     
 }
