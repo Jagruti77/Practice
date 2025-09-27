@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-04T17:21:19 IST" name="Suite" finished-at="2025-09-04T17:21:31 IST" duration-ms="11252">
+    <groups>
+    </groups>
+    <test started-at="2025-09-04T17:21:19 IST" name="Test" finished-at="2025-09-04T17:21:31 IST" duration-ms="11252">
+      <class name="SeleniumF.SeleniumFramework.SubmitOrderTest">
+        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:SeleniumF.SeleniumFramework.SubmitOrderTest@fa4c865]" started-at="2025-09-04T17:21:19 IST" name="LaunchApp" finished-at="2025-09-04T17:21:22 IST" duration-ms="2707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumF.SeleniumFramework.SubmitOrderTest@fa4c865]" started-at="2025-09-04T17:21:22 IST" name="submitOrder" data-provider="getData" finished-at="2025-09-04T17:21:30 IST" duration-ms="8400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sharmajagruti@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[J@123456$j]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumF.SeleniumFramework.SubmitOrderTest@fa4c865]" started-at="2025-09-04T17:21:30 IST" name="closeBrowser" finished-at="2025-09-04T17:21:31 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumF.SeleniumFramework.SubmitOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
